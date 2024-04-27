@@ -1,0 +1,116 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sort-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sort-label {
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .sort-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .create-post-button,
+  .logout-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .create-post-button:hover,
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-link {
+    font-size: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .post-details {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .upvote-button,
+  .submit-comment-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .upvote-button:hover,
+  .submit-comment-button:hover {
+    background-color: #218838;
+  }
+  
+  .comment-container {
+    margin-top: 10px;
+  }
+  
+  .comment-textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    resize: vertical;
+  }
+  
+  .submit-comment-button {
+    width: 100%;
+  }
+  

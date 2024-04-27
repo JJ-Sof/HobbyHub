@@ -1,0 +1,108 @@
+.post-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .post-content {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .post-upvotes {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .upvote-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-post-button, .edit-post-button {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  .comments-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .comment-content {
+    margin: 0;
+    color: #555;
+  }
+  
+  .comment-buttons {
+    margin-bottom: 5px;
+  }
+  
+  .delete-comment-button, .edit-comment-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .comment-input {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: white; /* Change text color to white */
+    background-color: #333; /* Change background color to dark gray */
+  }
+  
+  .add-comment-button {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

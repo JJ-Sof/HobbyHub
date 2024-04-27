@@ -1,0 +1,55 @@
+/* Set default text color to a slightly lighter shade of black */
+:root {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Change background color to a light gray */
+:root {
+  background-color: #f5f5f5;
+}
+
+/* Increase button border radius for a softer look */
+button {
+  border-radius: 10px;
+}
+
+/* Darken button hover color */
+button:hover {
+  border-color: #646cff;
+  background-color: #eaeaea; /* Darken button background color */
+}
+
+/* Darken button focus color */
+button:focus,
+button:focus-visible {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.4); /* Add custom focus shadow */
+}
+
+/* Adjust link color for better readability */
+a {
+  color: #2196f3; /* Blue link color */
+}
+a:hover {
+  color: #0d47a1; /* Darker blue hover color */
+}
+
+/* Change heading font size and weight */
+h1 {
+  font-size: 2.5em; /* Decrease heading font size */
+  font-weight: 600; /* Increase heading font weight */
+}
+
+/* Adjust default body margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center content vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
